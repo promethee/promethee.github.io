@@ -12,8 +12,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.4/gist-embed.min.js"></script>
-    <script src="javascripts/posts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -31,11 +30,6 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    <script>
-        posts.map(function (gitst_id) {
-            $('section').append('<p data-gist-id="'+gitst_id+'"></p>');
-        });
-      </script>
-
+    <script src="javascripts/posts.js"></script>
   </body>
 </html>
