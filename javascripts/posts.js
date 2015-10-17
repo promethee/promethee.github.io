@@ -4,7 +4,17 @@
   ];
 
   document.getElementsByTagName('section')[0].textContent = '';
-  posts.map(function (post_html) {
+  posts.map(function (filename) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+              var t = JSON.parse(xhr.responseText);
+            }
+        }
+    };
+    xhr.open("GET", '_posts/'+filename, true);
+    xhr.send();
     document.getElementsByTagName('section')[0].innerHTML += post_html;
   });
 });
