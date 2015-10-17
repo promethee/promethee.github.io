@@ -17,4 +17,4 @@
     xhr.send();
     document.getElementsByTagName('section')[0].innerHTML += post_html;
   });
-});
+}());
