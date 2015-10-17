@@ -3,7 +3,7 @@
     "2015-10-17-hello.md"
   ];
 
-  document.getElementsByTagName('section')[0].textContent = '';
+  //document.getElementsByTagName('section')[0].textContent = '';
   posts.map(function (filename) {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
