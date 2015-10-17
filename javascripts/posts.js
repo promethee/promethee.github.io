@@ -9,7 +9,7 @@
     xhr.onreadystatechange = function() {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
-              var t = JSON.parse(xhr.responseText);
+              var post_html = JSON.parse(xhr.responseText);
             }
         }
     };
