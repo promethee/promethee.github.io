@@ -13,7 +13,7 @@
             }
         }
     };
-    xhr.open("GET", '_posts/'+filename, true);
+    xhr.open("GET", './_posts/'+filename, true);
     xhr.send();
   });
 }());
