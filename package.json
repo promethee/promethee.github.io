@@ -4,7 +4,7 @@
   "description": "An experimental full front end blog 'stuff'",
   "author": "Promethee",
   "scripts": {
-    "test": "",
+    "test": "phantomjs test/index.html"
   },
   "main": "index.html",
   "repository": {
