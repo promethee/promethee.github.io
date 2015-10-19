@@ -12,6 +12,7 @@
     "url": "https://github.com/promethee/promethee.github.io"
   },
   "devDepencies": {
+    "bower": "latest",
     "phantomjs": "latest"
   },
   "license": "GPL-3"
