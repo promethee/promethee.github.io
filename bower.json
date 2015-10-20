@@ -1,4 +1,6 @@
 {
+  "name":"promethee.github.io",
+  "homepage":"promethee.github.io",
   "version": "0.3.0",
   "dependencies": {
     "chai": "latest",
