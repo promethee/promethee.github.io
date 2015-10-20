@@ -8,7 +8,7 @@ before_script:
   - npm install -g bower
   - bower install
 
-script: phantomjs test/post.js
+script: phantomjs test/index.html
 
 after_success:
   - coveralls
