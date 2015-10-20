@@ -7,10 +7,8 @@ node_js:
 before_script:
   - npm install -g bower
   - bower install
-  - sudo node test/js/server.js ../../ 80 &
-  - sleep 5
 
-script: phantomjs test/index.html "http://localhost:80/test/index.html"
+script: phantomjs test/posts.js
 
 after_success:
   - coveralls
