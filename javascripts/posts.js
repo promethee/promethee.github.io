@@ -1,4 +1,5 @@
 var posts = {};
+var tags = {};
 
 var addGist = function (gist) {
     var p_container = document.createElement('p');
@@ -18,10 +19,20 @@ var addGist = function (gist) {
     div_gist_content.className = 'gist-content';
     div_gist_content.innerHTML = markdown.toHTML(gist.data);
 
+    var _tags = gist.description.split(' ');
+    _tags.filter(function (tag) {
+      // return -1 < tag.indexOf('#') ? tag.substr(1):tag;
+      return tag.substr(1;
+    }).map(function (tag) {
+      if (undefined === tags[tag]) {
+        tags[tag] = 0;
+      }
+      tags[tag] += 1;
+      console.log('tag', tag, 'tags', tags);
+    });
     var div_gist_tags = document.createElement('small');
     div_gist_tags.className = 'gist-tags';
-    div_gist_tags.innerHTML = gist.description.split(' ').join(' ');
-    console.log(gist);
+    div_gist_tags.innerHTML = _tags.join(' ');
 
     div_gist.appendChild(div_gist_date);
     div_gist.appendChild(div_gist_content);
