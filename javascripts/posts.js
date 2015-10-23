@@ -6,6 +6,7 @@ var addGist = function (gist) {
     p_container.style.display = 'block';
     var div_gist = document.createElement('div');
     div_gist.className = 'gist';
+    div_gist.dataset.description = gist.description || '';
     div_gist.innerHTML = markdown.toHTML(gist.data);
     p_container.appendChild(div_gist);
     document.getElementsByTagName('section')[0].appendChild(p_container);
