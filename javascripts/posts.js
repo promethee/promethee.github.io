@@ -13,7 +13,7 @@ var addGist = function (gist) {
 
     var div_gist_date = document.createElement('small');
     div_gist_date.className = 'gitst-date'
-    div_gist_date.innerHTML = moment(gist.created_at).format('dddd MMMM Do YYYY');
+    div_gist_date.innerHTML = moment(gist.created_at).format('dddd MMMM Do YYYY [@] H:m');
 
     var div_gist_content = document.createElement('p');
     div_gist_content.className = 'gist-content';
