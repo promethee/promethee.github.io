@@ -47,7 +47,7 @@ var getGist = function (url, callback) {
 
 var onGistListDone = function (gists) {
     gists.map(function (gist) {
-        posts[gist.updated_at] = gist;
+        posts[gist.created_at] = gist;
     });
 
     var creation_dates = Object.keys(posts).sort().reverse();
