@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Promethee.GitHub.io by promethee</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="css/gist.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown.js/0.5.0/markdown.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Promethee.GitHub.io</h1>
+        <p><img src="https://travis-ci.org/promethee/promethee.github.io.svg?branch=master"/></p>
+        <p class="view"><a href="https://github.com/promethee">View My GitHub Profile</a></p>
+      </header>
+      <section>
+        <!-- ko foreach: gists -->
+        <p data-bind="attr: {'data-gist-id': id}">
+          <div class="gist">
+            <small data-bind="text: created_at"></small>
+            <p data-bind="html: content" class="gist-content"></p>
+            <small data-bind="html: tags" class="gist-tags"></small>
+          </div>
+        </p>
+        <!-- /ko -->
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <!-- <script src="javascripts/posts.js"></script> -->
+    <script type="text/javascript">
+      var gists = ko.observableArray([]);
+
+      var onGistFile = function (content, gist) {
+        gist.content = content;
+        gists.push({
+          id: gist.id,
+          tags: gist.description.substr(1).split('#').map(function (tag) {
+            return ['<a href="'+base_url+'?tag='+tag+'">', tag, '</tag>'].join('');
+          }),
+          created_at: gist.created_at,
+          content: markdown.toHTML(content)
+        });
+      };
+
+      var onGistList = function(data) {
+        data.map(function (gist) {
+          var files = Object.keys(gist.files);
+          files.map(function (file) {
+            $.get(gist.files[file].raw_url, function (data) {
+              onGistFile(data, gist)
+            });
+          });
+        });
+      };
+
+      $.getJSON('https://api.github.com/users/promethee/gists', onGistList);
+      ko.applyBindings(gists);
+    </script>
+  </body>
+</html>
