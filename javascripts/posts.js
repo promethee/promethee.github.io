@@ -19,10 +19,10 @@ var addGist = function (gist) {
     div_gist_content.className = 'gist-content';
     div_gist_content.innerHTML = markdown.toHTML(gist.data);
 
-    var _tags = gist.description.split(' ');
+    var _tags = gist.description.split('#');
     _tags.filter(function (tag) {
       // return -1 < tag.indexOf('#') ? tag.substr(1):tag;
-      return tag.substr(1);
+      if (tag.length)   return tag.substr(1);
     }).map(function (tag) {
       if (undefined === tags[tag]) {
         tags[tag] = 0;
