@@ -22,7 +22,7 @@ var addGist = function (gist) {
     var _tags = gist.description.split(' ');
     _tags.filter(function (tag) {
       // return -1 < tag.indexOf('#') ? tag.substr(1):tag;
-      return tag.substr(1;
+      return tag.substr(1);
     }).map(function (tag) {
       if (undefined === tags[tag]) {
         tags[tag] = 0;
