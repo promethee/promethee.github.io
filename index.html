@@ -82,7 +82,7 @@
       };
 
       var onGistListDone = function (gists) {
-          console.trace(gist);
+          console.trace(JSON.stringify(gist));
           gists.map(function (gist) {
               posts[gist.created_at] = gist;
           });
