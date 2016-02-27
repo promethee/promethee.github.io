@@ -3,18 +3,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2016-02-27T12:32:07+01:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/testing_git_subtree/</loc>
-    <lastmod>2016-02-27T12:32:07+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/testing_gohugo.io/</loc>
-    <lastmod>2016-02-27T12:17:27+01:00</lastmod>
   </url>
   
 </urlset>

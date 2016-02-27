@@ -5,30 +5,7 @@
     <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Feb 2016 12:32:07 +0100</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>testing_git_subtree</title>
-      <link>/testing_git_subtree/</link>
-      <pubDate>Sat, 27 Feb 2016 12:32:07 +0100</pubDate>
-      
-      <guid>/testing_git_subtree/</guid>
-      <description>&lt;p&gt;Testing changing the default branch (from master to gh-pages), on promethee.github.io, so that doing git subtree push &amp;ndash;prefix public origin gh-pages update promethee.github.io on any pushes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>testing_gohugo.io</title>
-      <link>/testing_gohugo.io/</link>
-      <pubDate>Sat, 27 Feb 2016 12:17:27 +0100</pubDate>
-      
-      <guid>/testing_gohugo.io/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Testing gohugo.io&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A static blog generator in go language.&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>
