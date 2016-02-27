@@ -1,3 +1,7 @@
-baseurl = "http://promethee.github.io/"
 languageCode = "fr-FR"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+baseurl = "http://promethee.github.io/"
 title = "promethee.github.io"
+canonifyurls = false
