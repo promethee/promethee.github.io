@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>promethee.github.io</title>
-    <link>http://promethee.github.io/</link>
+    <link>https://promethee.github.io/</link>
     <description>Recent content on promethee.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <atom:link href="http://promethee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://promethee.github.io/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
