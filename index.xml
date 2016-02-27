@@ -1,247 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>promethee.github.io</title>
-    <link>https://promethee.github.io/</link>
-    <description>Recent content on promethee.github.io</description>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language>
-    <lastBuildDate>Sat, 27 Feb 2016 12:17:27 +0100</lastBuildDate>
-    <atom:link href="https://promethee.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2016 12:32:07 +0100</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>testing_git_subtree</title>
+      <link>/testing_git_subtree/</link>
+      <pubDate>Sat, 27 Feb 2016 12:32:07 +0100</pubDate>
+      
+      <guid>/testing_git_subtree/</guid>
+      <description>&lt;p&gt;Testing changing the default branch (from master to gh-pages), on promethee.github.io, so that doing git subtree push &amp;ndash;prefix public origin gh-pages update promethee.github.io on any pushes.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>testing_gohugo.io</title>
-      <link>https://promethee.github.io/testing_gohugo.io/</link>
+      <link>/testing_gohugo.io/</link>
       <pubDate>Sat, 27 Feb 2016 12:17:27 +0100</pubDate>
       
-      <guid>https://promethee.github.io/testing_gohugo.io/</guid>
+      <guid>/testing_gohugo.io/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Testing gohugo.io&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;A static blog generator in go language.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>playing with qr codes</title>
-      <link>https://promethee.github.io/playing-with-qr-codes/</link>
-      <pubDate>Tue, 24 Nov 2015 21:05:08 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/playing-with-qr-codes/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;And so I&amp;rsquo;m playing a bit with qr-code&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Adding another qr-code for easy url manipulation with (getPocket)&lt;a href=&#34;add an url to your reading list&#34;&gt;https://getpocket.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s accessible using : &lt;a href=&#34;http://promethee.github.io/url2qrcode/?url=[YOUR_URL]&amp;amp;type=pocket&#34;&gt;http://promethee.github.io/url2qrcode/?url=[YOUR_URL]&amp;amp;type=pocket&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Try it :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>you might not need jquery</title>
-      <link>https://promethee.github.io/you-might-not-need-jquery/</link>
-      <pubDate>Tue, 24 Nov 2015 21:03:54 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/you-might-not-need-jquery/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;All is in the title&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A really good read : &lt;a href=&#34;http://youmightnotneedjquery.com/&#34;&gt;you might not need jQuery&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Because native will be best, keep jQuery for what it&amp;rsquo;s really good (ajax and multiselection ?).&lt;/p&gt;
-
-&lt;p&gt;Enjoy :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>qrcode 2 url</title>
-      <link>https://promethee.github.io/qrcode-2-url/</link>
-      <pubDate>Tue, 17 Nov 2015 21:02:57 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/qrcode-2-url/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;From url to qr code&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Hello,&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve started a small page to convert an url to a qr code (&lt;a href=&#34;http://promethee.github.io/url2qrcode/?url=http://promethee.github.io/&#34;&gt;here&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;**But why ? **&lt;/p&gt;
-
-&lt;p&gt;Because sometimes, you may want to open an url without using anything connected to an account.&lt;/p&gt;
-
-&lt;p&gt;Transmit an url to your phone, without sync, pushbullet, etc.&lt;/p&gt;
-
-&lt;p&gt;Enjoy :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>cloning</title>
-      <link>https://promethee.github.io/cloning/</link>
-      <pubDate>Mon, 26 Oct 2015 20:59:38 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/cloning/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Keeping things clean&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;So I&amp;rsquo;ve cloned my index.html into other files, for testing purposes.&lt;/p&gt;
-
-&lt;p&gt;Doing that, I can mess things up pretty badly without limiting your access to this fabulous blog (ahem).&lt;/p&gt;
-
-&lt;p&gt;Stay clean, tidy your files.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>made some changes</title>
-      <link>https://promethee.github.io/made-some-changes/</link>
-      <pubDate>Sat, 24 Oct 2015 21:02:11 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/made-some-changes/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Made some changes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Here and there. The text was too mall.&lt;/p&gt;
-
-&lt;p&gt;I also drop the filename convention for my gists (no more date as prefix).&lt;/p&gt;
-
-&lt;p&gt;Soon enought, I&amp;rsquo;ll also test an alternate version of this page, using angular, and react.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>testing knockout</title>
-      <link>https://promethee.github.io/testing-knockout/</link>
-      <pubDate>Sat, 24 Oct 2015 21:01:07 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/testing-knockout/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Testing Knockout JS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I may have to use Knockout Js at work, and, as I like two-way binding libs/frameworks, I found Knockout to be a bit confusing.&lt;/p&gt;
-
-&lt;p&gt;Anyway, I wrote an alternative version of this very page, using Knockout (for testing purpose) : &lt;a href=&#34;http://promethee.github.io/index.knockout.html&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>tags</title>
-      <link>https://promethee.github.io/tags/</link>
-      <pubDate>Fri, 23 Oct 2015 21:00:13 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/tags/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Tags !&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve updated my gists with tags, well, more like hashtags.&lt;/p&gt;
-
-&lt;p&gt;I will, soon enough, make a tag cloud on the left.&lt;/p&gt;
-
-&lt;p&gt;Yeah.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>messing things up with react js</title>
-      <link>https://promethee.github.io/messing-things-up-with-react-js/</link>
-      <pubDate>Fri, 23 Oct 2015 20:58:55 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/messing-things-up-with-react-js/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Messing things up with React JS&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This can be complicated with new frameworks and/or paradigms.&lt;/p&gt;
-
-&lt;p&gt;So I&amp;rsquo;m playing with React Js, and it seems really cool, yet, with the whole jsx format, I&amp;rsquo;m quite there yet.&lt;/p&gt;
-
-&lt;p&gt;But still playing with it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>github blogging evolution</title>
-      <link>https://promethee.github.io/github-blogging-evolution/</link>
-      <pubDate>Fri, 23 Oct 2015 20:54:12 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/github-blogging-evolution/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Dicthing gist-embed&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;(yet, it was usefull), for a raw gist api approach.&lt;/p&gt;
-
-&lt;p&gt;Having the list of my gist on the fly (because they&amp;rsquo;re public), looping on each one, etc.
-Really nice, yet, a lot more to do :
-- styling
-- more meta data for each gist,
-- link to any given gist (for direct access)&lt;/p&gt;
-
-&lt;p&gt;to be continued&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>testing travis ci</title>
-      <link>https://promethee.github.io/testing-travis-ci/</link>
-      <pubDate>Sun, 18 Oct 2015 20:57:36 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/testing-travis-ci/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Travis CI&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s so easy and nice. Right now, I&amp;rsquo;m testing frontend unit tests with mocha and chai, and will use phantom js ia a few.&lt;/p&gt;
-
-&lt;p&gt;Go on &lt;a href=&#34;https://travis-ci.org/&#34;&gt;Travis CI&lt;/a&gt;, it&amp;rsquo;s free for open source (public) projects.&lt;/p&gt;
-
-&lt;p&gt;You can link you github or bitbucket account, and have nice badges to show off ;)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>inverse chronological order</title>
-      <link>https://promethee.github.io/inverse-chronological-order/</link>
-      <pubDate>Sat, 17 Oct 2015 20:56:53 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/inverse-chronological-order/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Getting to reverse the chronological order of the gists&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;And&amp;hellip;well, it&amp;rsquo;s good.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>github blogging</title>
-      <link>https://promethee.github.io/github-blogging/</link>
-      <pubDate>Sat, 17 Oct 2015 20:55:44 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/github-blogging/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Willing to give a test to github blogging&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;And not really inclined to run anything locally (jekyll, I&amp;rsquo;m looking at you), I tried something :&lt;/p&gt;
-
-&lt;p&gt;Pusblishing articles on gist, and getting them using &lt;a href=&#34;https://github.com/blairvanderhoof/gist-embed&#34;&gt;gist-embed&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;So far so good, the only thing missing is a &amp;ldquo;on the fly&amp;rdquo; gist listing.&lt;/p&gt;
-
-&lt;p&gt;Right now, I must maintain a list of my gist and it&amp;rsquo;s a bit boring, but hey, that&amp;rsquo;s already cool.&lt;/p&gt;
-
-&lt;p&gt;Will be working on it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>hello again</title>
-      <link>https://promethee.github.io/hello-again/</link>
-      <pubDate>Sat, 17 Oct 2015 20:51:45 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/hello-again/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;testing for the second time&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;hello&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>hello</title>
-      <link>https://promethee.github.io/hello/</link>
-      <pubDate>Sat, 17 Oct 2015 12:40:45 +0100</pubDate>
-      
-      <guid>https://promethee.github.io/hello/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Testing (again) github pages&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Because why not ?&lt;/p&gt;
 </description>
     </item>
     
