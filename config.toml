@@ -1,7 +1,7 @@
 languageCode = "fr-FR"
 contentdir = "content"
 layoutdir = "layouts"
-publishdir = "public"
+publishdir = "./"
 baseurl = "http://promethee.github.io/"
 title = "promethee.github.io"
 canonifyurls = false
